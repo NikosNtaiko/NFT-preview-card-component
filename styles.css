@@ -1,0 +1,88 @@
+:root{
+    --background-color: hsl(217, 54%, 11%);
+    --nft-price-color: hsl(178, 100%, 50%);
+    --card-background: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+}
+
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.card{
+    width: 300px;
+    background-color: var(--card-background);
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 20px 80px rgb(0 0 0 / 0.2);
+}
+
+.nft-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.flex-items{
+    display: flex;
+    gap: 90px;
+}
+
+p{
+    font-size: 1.125rem;
+    text-align: start;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 1.125rem;
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+span{
+    color: hsl(0, 0%, 100%);
+}
+
+.price{
+    color: var(--nft-price-color);
+}
+
+.grey{
+    color: #546986;
+}
+
+.line{
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 10px;
+}
+
+.flex-items2{
+    display: flex;
+    gap: 20px;
+}
+
+.flex-items2 img{
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 375px) {
+    .card{
+        margin: auto;
+    }
+  }
