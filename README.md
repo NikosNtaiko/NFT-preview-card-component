@@ -23,9 +23,6 @@ HTML and CSS
 
 To upload the website i used netlify.
 
-## My result:
-
-![order-summary-desktop!](images/order-summary.png)
 
 ## Got any feedback?
 
